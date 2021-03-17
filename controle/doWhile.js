@@ -10,4 +10,4 @@ do {
     console.log(`sua opção é: ${opcao}`)
 } while(opcao != -1)
 
-console.log(`Adeus.`)
+console.log(`Fim.`)
