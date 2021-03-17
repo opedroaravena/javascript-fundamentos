@@ -1,9 +1,10 @@
-const pessoa = {
+const programador = {
     nome: 'Pedro',
     idade: 23,
-    tecnologia: 'Javascript'
+    stack: 'Javascript',
+    disponibilidade: true
 }
 
-for(atributo in pessoa){
-    console.log(`${atributo} = ${pessoa[atributo]}`)
+for(let atributos in programador) {
+    console.log(`${atributos} = ${programador[atributos]}`)
 }
